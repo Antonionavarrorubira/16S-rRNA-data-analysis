@@ -1,3 +1,1 @@
-This repository provides the scripts and instructions necessary to reproduce the analysis of 16S rRNA gene sequencing 
-data used to investigate the effects of pectin on gut microbiota. The analysis includes data preprocessing, quality control, 
-and statistical analysis to explore the microbial community structure and diversity.
+This repository provides the scripts and instructions necessary to reproduce the analysis of 16S rRNA gene sequencing  data used to investigate the effects of pectin on gut microbiota. The analysis includes data preprocessing, quality control, and statistical analysis to explore the microbial community structure and diversity.
