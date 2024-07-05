@@ -23,6 +23,8 @@ To install QIIME 2 in a Conda environment, follow these steps:
 * The **preprocessing.sh** file is a Bash script containing all the code necessary to perform data importing to QIIME2 and the denoising process.
   * The script takes as an input 16S sequencing data on **Casava 1.8 demultiplexed paired-end format**. If you want to follow this script make sure your data is in this format
     or else modify the **qiime tools import** command from the script accordingly to match your data type. You can look for more information on this topic on the [QIIME2 official tutorial](https://docs.qiime2.org/2024.5/tutorials/importing/).
+  * To run the script you need the [latest SILVA 138 SSU non redundant database](https://www.arb-silva.de/documentation/release-138/) for the taxonomic classification
+    and the [SEPP database](https://data.qiime2.org/2022.2/common/sepp-refs-gg-13-8.qza) for the creation of the phylogenetic tree.
   * The script was ran on a linux remote server from CICA (_Centro Informatico Cientifico de Andalucia_) with a SSH protocol with the following features:
     * **Operating system:** Ubuntu 20.04.2 LTS
     * **Kernel version:** 5.4.0-146-generic
